@@ -1,14 +1,22 @@
-Template Flexbox
+# Template Flexbox
 
-Objetivo: recriar um template de um site que utiliza flexbox.
-Tecnologias: HTML e CSS.
+**Objetivo:** Recriar um template de um site que utiliza flexbox.
 
-largura útil do site: 990px
+**Tecnologias:** HTML, CSS
 
-cabeçalho:
+### Requisitos
 
-- altura: 120px
-- largura: 1280px
-- background: branco
-- contém: logo, menus (home, blog, pages, departments, timetable, gallery, contact)
-- padding do menu: 15px
+_Gerais_
+
+- Largura útil do site: 990px
+- Alinhamento: centralizado
+
+_Cabeçalho:_
+
+- Altura: 120px
+- Largura: 1280px
+- Background: branco
+- Contém:
+  - Logo
+  - Itens de menu: home, blog, pages, departments, timetable, gallery, contact
+    - Padding dos itens de menu: 15px
