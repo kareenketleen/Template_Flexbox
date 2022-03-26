@@ -20,3 +20,6 @@ _Cabeçalho:_
   - Logo
   - Itens de menu: home, blog, pages, departments, timetable, gallery, contact
     - Padding dos itens de menu: 15px
+
+banner_options
+altura: 210px
