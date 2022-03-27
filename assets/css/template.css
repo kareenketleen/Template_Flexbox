@@ -115,7 +115,8 @@ nav a:hover {
   font-size: 21px;
 }
 .banner_desc {
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 1.5;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -129,8 +130,10 @@ nav a:hover {
 }
 
 .banner_schedule {
-  border-bottom: 1px solid rgb(194, 186, 186);
-  border-bottom-width: thin;
+  border-bottom: 1px solid #3d52c8;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .banner_schedule ul {
@@ -142,4 +145,5 @@ nav a:hover {
 .banner_schedule li {
   list-style: none;
   justify-content: space-between;
+  margin-bottom: 5px;
 }
