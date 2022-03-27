@@ -147,3 +147,44 @@ nav a:hover {
   justify-content: space-between;
   margin-bottom: 5px;
 }
+#geral {
+  display: flex;
+  justify-content: center;
+}
+#geral section {
+  flex: 2;
+}
+#geral aside {
+  flex: 1;
+}
+.widget_title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.widget_title_text {
+  color: #000;
+  font-size: 21px;
+  font-weight: bold;
+}
+.widget_title_bar {
+  width: 50px;
+  height: 2px;
+  background-color: #36a9e1;
+  margin-top: 10px;
+}
+.rectangle {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(131, 157, 206);
+}
+
+.rectangle_columns {
+  display: flex;
+  justify-content: space-between;
+  height: 510px;
+}
+.rectangles {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
