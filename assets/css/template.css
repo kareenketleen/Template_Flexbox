@@ -127,3 +127,19 @@ nav a:hover {
   font-size: 13px;
   text-decoration: none;
 }
+
+.banner_schedule {
+  border-bottom: 1px solid rgb(194, 186, 186);
+  border-bottom-width: thin;
+}
+
+.banner_schedule ul {
+  display: flex;
+  padding: 0;
+}
+
+.banner_schedule ul,
+.banner_schedule li {
+  list-style: none;
+  justify-content: space-between;
+}
