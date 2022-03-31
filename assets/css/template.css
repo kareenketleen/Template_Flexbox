@@ -212,3 +212,44 @@ nav a:hover {
 .widget_body p {
   font-size: 14px;
 }
+.flex {
+  display: flex;
+}
+article a {
+  text-decoration: none;
+}
+article .news_data {
+  display: flex;
+}
+
+article .news_posted_at {
+  background-color: #2b4c99;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 2px;
+}
+article .news_comments {
+  background-color: #39aae1;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px;
+}
+article .news_thumbnail {
+  margin-top: 30px;
+}
+article .news_thumbnail img {
+  width: 100%;
+  height: auto;
+}
+article .new_title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #000;
+  font-size: 23px;
+}
+article .new_resume {
+  color: #5c5c5c;
+  line-height: 19px;
+  font-size: 14px;
+}
