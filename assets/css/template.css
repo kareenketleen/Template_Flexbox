@@ -176,6 +176,8 @@ nav a:hover {
   height: 150px;
   width: 150px;
   background-color: rgb(131, 157, 206);
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .rectangle_columns {
@@ -259,4 +261,53 @@ article .new_resume {
   line-height: 19px;
   font-size: 14px;
   margin-bottom: 30px;
+}
+footer {
+  background-color: black;
+  justify-content: center;
+  display: flex;
+}
+.footer_menu {
+  display: flex;
+}
+.fm_1,
+.fm_2,
+.fm_3 {
+  flex: 1;
+  color: white;
+}
+.fm_1 {
+  background-color: #39aae1;
+}
+.fm_2 {
+  background-color: #0079c7;
+}
+.fm_3 {
+  background-color: #2b4c99;
+}
+.footer_menu a {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+}
+.footer_area {
+  display: flex;
+}
+.footer_areaitem {
+  flex: 1;
+  background-color: black;
+}
+.flexColumn {
+  flex-direction: column;
+}
+footer .widget_title_text {
+  color: white;
+}
+.footer_copy {
+  border-top: 1px solid #2c2c2c;
+  height: 40px;
+  line-height: 40px;
+  color: #5c5c5c;
+  font-size: 12px;
+  margin-top: 30px;
 }
