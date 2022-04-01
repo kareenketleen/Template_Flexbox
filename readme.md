@@ -23,3 +23,7 @@ _Cabeçalho:_
 
 banner_options
 altura: 210px
+
+_TODO_
+
+- [ ] - Fix widget aside pra ficar responsivo

@@ -289,6 +289,7 @@ footer {
   display: block;
   text-decoration: none;
   padding: 20px;
+  color: #ffffff;
 }
 .footer_area {
   display: flex;
@@ -296,6 +297,7 @@ footer {
 .footer_areaitem {
   flex: 1;
   background-color: black;
+  padding-right: 20px;
 }
 .flexColumn {
   flex-direction: column;
@@ -310,4 +312,91 @@ footer .widget_title_text {
   color: #5c5c5c;
   font-size: 12px;
   margin-top: 30px;
+}
+.texto_de_contato {
+  color: #5c5c5c;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.endereços ul,
+.contatos_empresa ul {
+  list-style: none;
+  padding: 0px;
+}
+.endereços {
+  color: #5c5c5c;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.contatos_empresa li {
+  color: #5c5c5c;
+  flex-direction: row-reverse;
+  font-size: 12px;
+}
+.conteiner_footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.container_socialmedia {
+  display: flex;
+}
+.container_socialmedia a {
+  text-decoration: none;
+  color: #5c5c5c;
+  margin-right: 20px;
+}
+.container_post {
+  display: flex;
+  flex-direction: column;
+  color: #5c5c5c;
+  font-size: 13px;
+}
+.post {
+  margin-bottom: 20px;
+}
+
+.post .text {
+  color: whitesmoke;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.container_post ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+  list-style: "->   ";
+}
+
+.container_post a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.container_tweet {
+  display: flex;
+  flex-direction: column;
+  color: #5c5c5c;
+  font-size: 13px;
+}
+.tweet {
+  margin-bottom: 20px;
+}
+
+.tweet .text {
+  color: #5c5c5c;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.container_tweet ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+  list-style: "->   ";
+}
+
+.container_tweet a {
+  text-decoration: none;
+  color: lightblue;
 }
