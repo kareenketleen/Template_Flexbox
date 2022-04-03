@@ -176,19 +176,15 @@ nav a:hover {
   height: 150px;
   width: 150px;
   background-color: rgb(131, 157, 206);
-  justify-content: center;
-  align-items: flex-start;
 }
 
 .rectangle_columns {
   display: flex;
-  justify-content: space-between;
-  height: 510px;
-}
-.rectangles {
-  display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 330px;
+  max-height: 450px;
 }
 
 .contacts {
@@ -399,4 +395,79 @@ footer .widget_title_text {
 .container_tweet a {
   text-decoration: none;
   color: lightblue;
+}
+
+.menuMobile {
+  display: none;
+  height: 40px;
+  width: 40px;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.mm_line {
+  height: 3px;
+  background-color: #39aae1;
+}
+@media (max-width: 660px) {
+  .banner_headline {
+    padding: 20px;
+  }
+  .banner_headline h1 {
+    font-size: 55px;
+  }
+  .banner_headline h2 {
+    font-size: 17px;
+  }
+
+  .banner_options {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  #geral section,
+  #geral aside {
+    padding: 20px;
+  }
+
+  .footer_menu {
+    flex-direction: column;
+  }
+  .footer_area {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer_copy {
+    padding-left: 20px;
+  }
+
+  header .container {
+    flex-direction: row;
+  }
+  nav ul {
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  header {
+    height: auto;
+  }
+  .logo {
+    padding: 20px;
+  }
+  .menuMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
